@@ -80,7 +80,7 @@ const App = () => {
           }
         />
         <Route
-          path="/register"
+          path="/Register"
           element={
             <PageLayout
               Firstt="Home"
