@@ -73,7 +73,7 @@ const Registeration = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:3000/signup",userRegisteration)//Here "userRegistration" is payload
+      const response = await axios.post("https://ecomapp-am84.onrender.com/signup",userRegisteration)//Here "userRegistration" is payload
       //"payload"=> In the backend, a payload refers to the actual data that is sent or received in a request or response—especially in the context of HTTP requests (like POST, PUT) or APIs.
       //If a frontend sends this POST request:
       // {

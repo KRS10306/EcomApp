@@ -11,7 +11,7 @@ const Login = () => {
   const loginHandler = async () => {
     try {
       console.log(login);
-      const response = await axios.post("http://localhost:3000/login", login);
+      const response = await axios.post("https://ecomapp-am84.onrender.com/login", login);
       // console.log(response?.data);
       toast.success("User Logined")
       navigate('/')
